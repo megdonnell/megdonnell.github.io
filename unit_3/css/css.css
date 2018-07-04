@@ -1,0 +1,75 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body
+main {
+	padding: 60px;
+}
+h1 {
+	color: black;
+	font-family: arial;
+	font-size: 30px;
+}
+h2 {
+	color: #919191;
+	font-family: arial;
+	font-size: 20px;
+	margin-top: 30px;
+}
+p {
+	color: #f2d13d;
+	font-family: arial;
+	font-size: 16px;
+	margin-top: 20px;
+
+}
+ul {
+	color: #919191;
+	font-family: arial;
+	font-size: 15px;
+	margin-left: 40px;
+}
+header {
+	background-color: rgba(242, 209, 61, .15);
+	color: black;
+	height: 84px;
+	padding: 20px;
+}
+footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	background-color: rgba(242, 209, 61, .15);
+	text-align: center;
+	height: 50px;
+	padding: 10px;
+}
+section {
+	background-image: url(../images/tank-lawn.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	text-align: center;
+	padding: 20px;
+}
+#slogan {
+	color: #f2d13d;
+	font-family: arial;
+	font-size: 60px;
+	padding-top: 300px;
+	font-style: italic;
+}
+
+#logo {
+	height: 60px;
+}
+aside {
+ 	float: right;
+}
+nav a {
+ 	color: inherit;
+ 	text-decoration: none;
+ 	margin-right: 10px;
+}
