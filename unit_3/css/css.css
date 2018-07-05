@@ -2,27 +2,43 @@
 	padding: 0;
 	margin: 0;
 }
-body
 main {
-	padding: 60px;
+	padding-left: 240px;
+	padding-right: 240px;
+	padding-top: 20px;
+	padding-bottom: 110px;
 }
 h1 {
-	color: black;
+	color: #282828;
 	font-family: arial;
-	font-size: 30px;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-top: 140px
 }
 h2 {
-	color: #919191;
+	color: #282828;
 	font-family: arial;
 	font-size: 20px;
-	margin-top: 30px;
+	margin-top: 20px;
+	margin-bottom: 15px;
 }
-p {
+h3 {
 	color: #f2d13d;
 	font-family: arial;
+	font-size: 20px;
+	margin-bottom: 120px;
+}
+h4 {
+	color: #919191;
+	font-family: arial;
 	font-size: 16px;
-	margin-top: 20px;
-
+	margin-top: 10px;
+}
+p {
+	color: #919191;
+	font-family: arial;
+	font-size: 18px;
+	margin-top: 10px;
 }
 ul {
 	color: #919191;
@@ -31,13 +47,17 @@ ul {
 	margin-left: 40px;
 }
 header {
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 	background-color: rgba(242, 209, 61, .15);
 	color: black;
-	height: 84px;
+	height: 80px;
 	padding: 20px;
 }
 footer {
-	position: fixed;
+	position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -45,6 +65,7 @@ footer {
 	text-align: center;
 	height: 50px;
 	padding: 10px;
+	margin-top: 140px;
 }
 section {
 	background-image: url(../images/tank-lawn.jpg);
@@ -52,24 +73,47 @@ section {
 	background-position: center;
 	height: 600px;
 	text-align: center;
-	padding: 20px;
+	margin-top: 120px
+}
+aside {
+ 	float: right;
+ 	margin-top: -18px;
+ 	margin-right: 20px;
+}
+nav a {
+ 	color: #282828;
+ 	font-weight: bold;
+ 	text-decoration: none;
+ 	padding-right: 20px;
+}
+a {
+	color: #f2d13d;
+ 	font-weight: bold;
+ 	text-decoration: none;
+}
+hr {
+	margin-top: 15px;
 }
 #slogan {
 	color: #f2d13d;
 	font-family: arial;
-	font-size: 60px;
-	padding-top: 300px;
+	font-size: 72px;
+	text-transform: uppercase;
+	padding-top: 200px;
+	margin-bottom: -5px;
 	font-style: italic;
 }
-
 #logo {
 	height: 60px;
 }
-aside {
- 	float: right;
+.anchor {
+	display: block;
 }
-nav a {
- 	color: inherit;
- 	text-decoration: none;
- 	margin-right: 10px;
+#shop {
+	text-transform: capitalize;
+	border: 1px solid #f2d13d;
+	background-color: rgba(242, 209, 61, .15);
+	width: 30px;
+	height: 30px;
+	padding: 16px;
 }
