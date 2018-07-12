@@ -95,6 +95,17 @@ hr {
 	width: 10em;
 	margin: 10px 0px;
 }
+.anchor {
+	display: block;
+}
+.homepage-section {
+	width: 45em;
+	margin: 0px 15em;
+}
+.product-photo {
+	width: 200px;
+	border-radius: 100%;
+}
 #fullwidth-image-section {
 	background-image: url(../images/tank-lawn.jpg);
 	background-size: cover;
@@ -123,15 +134,4 @@ hr {
 	width: 30px;
 	height: 30px;
 	padding: 16px;
-}
-.anchor {
-	display: block;
-}
-.homepage-section {
-	width: 45em;
-	margin: 0px 15em;
-}
-.product-photo {
-	width: 200px;
-	border-radius: 100%;
 }
