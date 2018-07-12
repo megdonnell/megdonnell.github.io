@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 16px; /*1em = 16px*/
+}
+h1 {
+	color: #282828;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	margin-top: 5em;
+}
+h2 {
+	color: #282828;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.2em;
+	padding-top: 1em;
+}
+h3 {
+	color: #f2d13d;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.2em;
+	margin-bottom: 7.5em;
+}
+h4 {
+	color: #919191;
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+	padding: 1.5em;
+}
+p {
+	color: #919191;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	width: 30em;
+}
+ul {
+	color: #919191;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-left: 2.5em;
+	padding-top: 1em;
+	width: 25em;
+}
+header {
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+	background-color: rgba(242, 209, 61, .15);
+	height: 110px;
+	
+}
+footer {
+	position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	background-color: rgba(242, 209, 61, .15);
+	text-align: center;
+	height: 70px;
+	margin-top: 140px;
+}
+aside {
+ 	float: right;
+}
+nav {
+	margin-right: 2em;
+	margin-top: 4.5em;
+}
+nav a {
+	font-family: 'Open Sans', sans-serif;
+ 	color: #282828;
+ 	margin-left: 1.5em;
+ 	letter-spacing: .2em;
+ 	font-weight: bold;
+}
+a {
+	color: #f2d13d;
+ 	font-weight: bold;
+ 	text-decoration: none;
+}
+hr {
+	border: none;
+	height: 2px;
+	background-color: #282828;
+	width: 10em;
+	margin: 10px 0px;
+}
+#fullwidth-image-section {
+	background-image: url(../images/tank-lawn.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	text-align: center;
+	margin-top: 110px;
+}
+#slogan {
+	color: #f2d13d;
+	font-family: 'Shrikhand', cursive;
+	font-size: 4em;
+	text-transform: capitalize;
+	padding-top: 200px;
+	width: 100%;
+}
+#logo {
+	height: 70px;
+	margin-left: 2em;
+	margin-top: 2em;
+}
+#shop {
+	text-transform: capitalize;
+	border: 1px solid #f2d13d;
+	background-color: rgba(242, 209, 61, .15);
+	width: 30px;
+	height: 30px;
+	padding: 16px;
+}
+.anchor {
+	display: block;
+}
+.homepage-section {
+	width: 45em;
+	margin: 0px 15em;
+}
+.product-photo {
+	width: 200px;
+	border-radius: 100%;
+}
